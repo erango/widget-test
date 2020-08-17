@@ -4,7 +4,7 @@
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <!-- [1] -->
-<div id="modal-1" aria-hidden="true" data-fancybox="modal-1">
+<div style="display: none;" id="modal-1" aria-hidden="true" data-fancybox="modal-1">
 
   <!-- [2] -->
   <div tabindex="-1" data-micromodal-close>
@@ -43,7 +43,7 @@
   </div>
 </div>
  
-<a data-fancybox href="javascript:;">
+<a data-fancybox data-src="#modal-1" href="javascript:;">
   <button>View our beautiful agenda</button>
 </a>
 
