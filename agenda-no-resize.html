@@ -1,11 +1,41 @@
-<!-- Bizzabo Web Agenda Begin -->
-<div name="bizzabo-web-agenda" data-unique-name="4" data-iframe-resizer="false" data-events-url="https://erango-events.ext.dev.bizzabo.com"></div>
-<script type="text/javascript">(function() {
-    var bz = document.createElement('script');
-    bz.type = 'text/javascript';
-    bz.async = true;
-    bz.src = 'https://erango-organizer.ext.dev.bizzabo.com/widgets/agenda/agenda.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(bz, s);
-})();</script>
-<!-- Bizzabo Web Agenda End -->
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"/>
+<button data-micromodal-trigger="modal-1">View our beautiful agenda
+<!-- [1] -->
+<div id="modal-1" aria-hidden="true">
+
+  <!-- [2] -->
+  <div tabindex="-1" data-micromodal-close>
+
+    <!-- [3] -->
+    <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title" >
+
+
+      <header>
+        <h2 id="modal-1-title">
+          Isn't it pretty?
+        </h2>
+
+        <!-- [4] -->
+        <button aria-label="Back" data-micromodal-close></button>
+      </header>
+
+      <div id="modal-1-content">
+        
+        <!-- Bizzabo Web Agenda Begin -->
+        <div name="bizzabo-web-agenda" data-unique-name="4" data-iframe-resizer="false" data-events-url="https://erango-events.ext.dev.bizzabo.com"></div>
+        <script type="text/javascript">(function() {
+            var bz = document.createElement('script');
+            bz.type = 'text/javascript';
+            bz.async = true;
+            bz.src = 'https://erango-organizer.ext.dev.bizzabo.com/widgets/agenda/agenda.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(bz, s);
+        })();</script>
+        <!-- Bizzabo Web Agenda End -->
+        
+        
+      </div>
+
+    </div>
+  </div>
+</div>
