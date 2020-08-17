@@ -1,0 +1,9 @@
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+ 
+<a data-fancybox data-type="iframe" data-src="https://erango-events.ext.dev.bizzabo.com/4/agenda/?widget=true" href="javascript:;">
+  <button>View our beautiful agenda</button>
+</a>
+
