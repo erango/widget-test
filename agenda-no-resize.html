@@ -3,8 +3,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
+<style>
+  .fancybox-content { height: 480px; width: 640px; }
+  .fancybox-content iframe { height: 100%; }
+</style>
+
 <!-- [1] -->
-<div style="display: none;" id="modal-1" data-fancybox="modal-1" style="width: 480px; height: 320px;">
+<div style="display: none;" id="modal-1" data-fancybox="modal-1">
 
   <!-- [2] -->
   <div tabindex="-1" data-micromodal-close>
@@ -19,7 +24,7 @@
         </h2>
       </header>
 
-      <div id="modal-1-content" width="600" height="400">
+      <div id="modal-1-content">
         
         <!-- Bizzabo Web Agenda Begin -->
         <div name="bizzabo-web-agenda" data-unique-name="4" data-iframe-resizer="false" data-events-url="https://erango-events.ext.dev.bizzabo.com"></div>
