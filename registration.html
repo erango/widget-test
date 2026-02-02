@@ -1,4 +1,43 @@
-<!-- Bizzabo Tickets Widget Start -->
-<div class="bizzabo-tickets-widget" data-event-id="6" data-params="isInMinisite=true&widgetId=8"></div>
-<script type="text/javascript">(function(){var bz=document.createElement("script");bz.type="text/javascript";bz.async=true;bz.src="https://pink-organizer.ext.dev.bizzabo.com/widgets/tickets/tickets.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(bz,s);})();</script>
-<!-- Bizzabo Tickets Widget End -->
+<!-- Bizzabo "General Admission" Registration Flow Widget Begin -->
+    <div style="display: inline-flex; width: 100%;"
+        class="bz-widget-tickets-inline"
+        data-flow-id="25ae9804-7bfb-4b40-8849-5800179c2845"
+        data-event-id="2"
+        data-registration-proxy="true">
+    </div>
+    
+    <script type="text/javascript"
+        class="bz-inline-widget-script"
+        id="bz-inline-registration-script-25ae9804-7bfb-4b40-8849-5800179c2845"
+        data-event-id="2"
+        >
+        (function(){
+        var bz=document.createElement("script");
+        bz.type="text/javascript";
+        bz.async=true;
+        bz.src = "https://pink-organizer.ext.dev.bizzabo.com/widgets/flows/tickets/ticketsSelect.js";
+        var s=document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bz,s);
+        })();
+    </script>
+
+<script type = "text/javascript"
+    id="bz-popup-registration-script-25ae9804-7bfb-4b40-8849-5800179c2845"
+    data-event-id="2"
+    data-registration-proxy="true"
+    data-unique-name="2"
+    data-flow-id="25ae9804-7bfb-4b40-8849-5800179c2845"
+    data-inline-widget="true"
+    >
+    (function() {
+            var bz = document.createElement("script");
+            bz.type = "text/javascript";
+            bz.async = true;
+            bz.setAttribute("data-flow-id","25ae9804-7bfb-4b40-8849-5800179c2845")
+            bz.setAttribute("data-inline-widget", "true")
+            bz.src = "https://pink-organizer.ext.dev.bizzabo.com/widgets/flows/popup/registrationPopup.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bz, s);
+        })();
+</script>
+<!-- Bizzabo "General Admission" Registration Flow Widget End -->
